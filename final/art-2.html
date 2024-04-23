@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Walk in the Clouds | CH portfolio</title>
+    <link rel="stylesheet" href="art-2.css">
+</head>
+<body>
+    <script src=""></script>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="logo">CH</h1>
+            <nav>
+                <ul class="lily">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!--icon-->
+        <a href="art.html"><img class="back" src="arrow-lastpage.svg" ></a>
+        <a href="art-3.html"><img class="right" src="arrow-forward.svg" ></a>
+        <a href="art-1.html"><img class="left" src="arrow-backward.svg" ></a>
+
+        <div class="content">
+            <img class="work1" src="art-2.jpg">
+            <div class="description">
+                <h2>A Walk in the Clouds</h2>
+                <br>
+                <h3>24"*30"</h3>
+                <h3>acrylic on canvas</h3>
+                <h3>2022</h3>
+                <br>
+                <br>
+                <h4>Based on the song Dream by John Cage, 
+                    a piano piece. It gave me a feeling of 
+                    walking in the woods and some sunlight 
+                    filter through the trees and somehow it's
+                     like walking in the clouds. I want to 
+                     demonstrate the soft, peaceful, quiet, 
+                     dreamy mood that the song gave me. 
+                     So the colors I chose are mostly earth 
+                     tone color. Also because the song is
+                      mostly high pitch I chose these pretty 
+                      light colors. And the dark green and that 
+                      kinda grey and green color remains the low pitch part.</h4>
+            </div>
+
+            
+        </div> 
+    </div>
+    <!--cursor-->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function (e){
+            cursor.style.cssText = cursor2.style.cssText ="left:" + e.clientX+
+            "px; top:"+ e.clientY +"px;"
+        });
+    </script>
+</body>
+</html>

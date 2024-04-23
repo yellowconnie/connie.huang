@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow | CH portfolio</title>
+    <link rel="stylesheet" href="art-3.css">
+</head>
+<body>
+    <script src=""></script>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="logo">CH</h1>
+            <nav>
+                <ul class="lily">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--icon-->
+        <a href="art.html"><img class="back" src="arrow-lastpage.svg" ></a>
+        <a href="art-6.html"><img class="right" src="arrow-forward.svg" ></a>
+        <a href="art-4.html"><img class="left" src="arrow-backward.svg" ></a>
+
+        <div class="content">
+            <img class="work5" src="art-5.jpg">
+            <div class="description">
+                <h2>Flow</h2>
+                <br>
+                <h3>7"*3"</h3>
+                <h3>oil on woodboard</h3>
+                <h3>2022</h3>
+                <br>
+                <br>
+                <h5>The proliferation of the internet and the use of digital media 
+                    has infiltrated every aspect of our lives. Painting today is no 
+                    longer looked at within the confines of antiquated tradition but 
+                    is instead seen and read within the contemporary moment of artistic 
+                    production which includes the aid of digital tools and the influence 
+                    of social media. Today, it is rare to find an artwork that is not 
+                    somehow mediated by the internet which has the ability to proliferate, 
+                    disperse and transmit images. But how does painting fit into all of 
+                    this? If painting requires face-to-face interaction, how does it 
+                    advocate for itself in the technological sphere?. 
+            
+                </h5>
+                <br>
+                <h5>
+                    I created this painting with one of the oil painting techniques called glazing.
+                    And created this glowy and reflecting work, which is hard to document and 
+                    hard to present it on internet.
+                    The intensions is to hope people can spend time and enjoy, observe it 
+                    in-person, face to face, feel every details in the artwork.
+                </h5>
+            </div>
+
+            
+        </div> 
+    </div>
+    <!--cursor-->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function (e){
+            cursor.style.cssText = cursor2.style.cssText ="left:" + e.clientX+
+            "px; top:"+ e.clientY +"px;"
+        });
+    </script>
+</body>
+</html>
